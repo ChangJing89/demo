@@ -1,7 +1,11 @@
-mysql:
-  url: jdbc:mysql://172.16.65.95:32483/demo?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
-  username: root
+postgres:
+  url: jdbc:postgresql://127.0.0.1:5432/postgres?currentSchema=demo&createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+  username: postgres
   password: 123456
+  driver-class-name: org.postgresql.Driver
+  
+jpa:
+  database-platform: org.hibernate.dialect.PostgreSQL9Dialect
 
 eureka:
   url: order-eureka.apps.pas.cloud.dhc.com.cn

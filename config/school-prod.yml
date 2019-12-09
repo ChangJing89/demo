@@ -1,2 +1,12 @@
 school:
   name: school-prod44444
+
+
+mysql:
+  url: jdbc:mysql://localhost:3306/demo?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+  username: root
+  password: C890408j
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  
+jpa:
+  database-platform: org.hibernate.dialect.MySQL5Dialect

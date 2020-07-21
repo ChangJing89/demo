@@ -1,2 +1,2 @@
-cloud:
-  name: cloud-dev
+profile:
+  active: prod

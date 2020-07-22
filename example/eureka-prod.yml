@@ -1,2 +1,2 @@
-profile:
-  active: prod
+config:
+  uri: http://localhost:9001

@@ -1,2 +1,5 @@
 profile:
   active: dev
+
+eureka:
+  serviceUrl: localhost:9002

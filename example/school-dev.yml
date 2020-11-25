@@ -1,5 +1,5 @@
 application:
-  profile: school-dev1111
+  profile: school-dev
 
 server:
   port: 10004

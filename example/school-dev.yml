@@ -53,14 +53,14 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:9002/eureka/
 
-security:
-  oauth2:
-    resource:
-      jwt:
-        key-uri: http://localhost:8001/uaa/oauth/token_key    #如果使用JWT，可以获取公钥用于 token 的验签
-        key-value: auth
-      user-info-uri: http://localhost:8001/uaa/user
-      token-info-uri: http://localhost:8001/uaa/oauth/check_token
+# security:
+#   oauth2:
+#     resource:
+#       jwt:
+#         key-uri: http://localhost:8001/uaa/oauth/token_key    #如果使用JWT，可以获取公钥用于 token 的验签
+#         key-value: auth
+#       user-info-uri: http://localhost:8001/uaa/user
+#       token-info-uri: http://localhost:8001/uaa/oauth/check_token
 ribbon:
   eureka:
     enabled: true
